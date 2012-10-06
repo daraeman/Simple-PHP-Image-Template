@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('http://magicjamesv.net78.net/fonts/Pacifico-webfont.eot');
+    src: url('http://magicjamesv.net78.net/fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://magicjamesv.net78.net/fonts/Pacifico-webfont.woff') format('woff'),
+         url('http://magicjamesv.net78.net/fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('http://magicjamesv.net78.net/fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'HeroLightLight';
+    src: url('http://magicjamesv.net78.net/fonts/hero_light.eot');
+    src: url('http://magicjamesv.net78.net/fonts/hero_light.eot?#iefix') format('embedded-opentype'),
+         url('http://magicjamesv.net78.net/fonts/hero_light.woff') format('woff'),
+         url('http://magicjamesv.net78.net/fonts/hero_light.ttf') format('truetype'),
+         url('http://magicjamesv.net78.net/fonts/hero_light.svg#HeroLightLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+a:hover {
+	color: #666;
+}
+
+body {
+	background-image: url('http://magicjamesv.net78.net/images/tex1.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	color: #555;
+	font-family: 'HeroLightLight';
+	padding-top: 26px;
+}
+aside {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100px;
+	display: none;
+}
+	aside>div {
+		position: absolute;
+		top: 50%;
+		height: 0px;
+		width: 0px;
+		font-family: "PacificoRegular";
+		border-top: 32px solid transparent;
+		border-left: 35px solid #ccc;
+		border-bottom: 32px solid transparent;
+	}
+	aside>div>div {
+		position: absolute;
+		top: -16px;
+		left: -36px;
+	}
+	aside>div:hover {
+		color: #000;
+		top: 49.5%;
+		border-top: 36px solid transparent;
+		border-left: 40px solid #ccc;
+		border-bottom: 36px solid transparent;
+	}
+
+#left {
+	position: fixed;
+	left: 50px;
+	top: -5px;
+	height: 100%;
+	min-height: 275px;
+	width: 353px;
+}	
+	h1 {
+		font-family: 'PacificoRegular';
+		font-size: 40px;
+	}
+	#left h1 {
+		margin-left: -10px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	#left h2 {
+		margin-top: -10px;
+	}
+	ul {
+		list-style-type: none;
+		list-style-position: outside;
+		padding: 0px;
+	}
+	li {
+		margin-bottom: 5px;
+	}
+	footer {
+		bottom: 5px;
+		position: absolute;
+	}
+
+section {
+	width: 720px;
+	padding-left: 302px;
+	padding-right: 60px;
+	text-align: center;
+}
+	figure {
+		width: 720px;
+		height: 500px;
+		margin-bottom: 70px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid #ccc;
+	}
+		figcaption {
+			text-align: left;
+		}
+		time {
+			float: right;
+			text-align: right;
+		}
